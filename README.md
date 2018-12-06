@@ -2,11 +2,15 @@
 nodejs端的DI库，可以方便的在类的构造函数中注入依赖
 
 # Installation
-`npm install node-ninject`
+```
+npm install node-ninject
+```
 
 or
 
-`yarn add node-ninject`
+```
+yarn add node-ninject
+```
 
 # API
 
@@ -23,7 +27,9 @@ injects：注入到实例化链中的上下文对象(注入后当前实例化对
 ## NinjectConfig
 数组对象，维护类型和别名的映射，ninject从中读取实例化的类型。
 
-`{alias: 'testService', bind: TestService}`
+```
+{alias: 'testService', bind: TestService}
+```
 
 
 # Usage
