@@ -1,0 +1,33 @@
+{
+  "name": "node-ninject",
+  "version": "1.0.0",
+  "description": "ninject for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenfengjw163/node-ninject.git"
+  },
+  "keywords": [
+    "di",
+    "ninject",
+    "nodejs"
+  ],
+  "files": [
+    "*.js"
+  ],
+  "author": "chenfeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenfengjw163/node-ninject/issues"
+  },
+  "homepage": "https://github.com/chenfengjw163/node-ninject#readme",
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  },
+  "engines": {
+    "node": ">6.9.1"
+  }
+}
