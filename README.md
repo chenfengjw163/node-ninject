@@ -1,6 +1,6 @@
 # node-ninject
 nodejs端的DI库，可以方便的在类的构造函数中注入依赖
-```
+```javascript
 class TestController {
   constructor(testService) {
     this.testService = testService; // testService => new TestServie()
