@@ -11,7 +11,9 @@ class TestController {
 };
 ```
 
-# Installation
+# Getting Started
+
+## Installation
 ```
 npm install node-ninject
 ```
@@ -22,19 +24,19 @@ or
 yarn add node-ninject
 ```
 
-# API
+## API
 
-## Ninject
-### init(config: ninjectConfig)
+### Ninject
+#### init(config: ninjectConfig)
 config: ninject的映射配置
 
-### createInstance(type: Type, [injects: Object])
+#### createInstance(type: Type, [injects: Object])
 type: 类型
 
 injects：注入到实例化链中的上下文对象(注入后当前实例化对象和所有依赖关系的实例化对象都拥有该上下文，在nodejs中传递请求上下文很有用)
 
 
-## NinjectConfig
+### NinjectConfig
 数组对象，维护类型和别名的映射，ninject从中读取实例化的类型。
 
 ```
@@ -42,7 +44,7 @@ injects：注入到实例化链中的上下文对象(注入后当前实例化对
 ```
 
 
-# Usage
+## Usage
 `ninject-config.js`
 ``` javascript
 const TestService = require('../services/test-service');
@@ -91,6 +93,6 @@ try {
 }
 ```
 
-# License
+## License
 
 node-ninject is licensed under a [MIT  License](./LICENSE).
