@@ -12,16 +12,16 @@ or
 
 ## Ninject
 ### init(config: ninjectConfig)
-config: ninject的映射配置
+config: ninject的映射配置
 
 ### createInstance(type: Type, [injects: Object])
 type: 类型
 
-injects：注入到实例化链中的上下文对象(注入后当前实例化对象和所有依赖关系的实例化对象都拥有该上下文，在nodejs中传递请求上下文很有用)
+injects：注入到实例化链中的上下文对象(注入后当前实例化对象和所有依赖关系的实例化对象都拥有该上下文，在nodejs中传递请求上下文很有用)
 
 
 ## NinjectConfig
-数组对象，维护类型和别名的映射，ninject从中读取实例化的类型。
+数组对象，维护类型和别名的映射，ninject从中读取实例化的类型。
 
 `{alias: 'testService', bind: TestService}`
 
