@@ -24,10 +24,13 @@
     "url": "https://github.com/chenfengjw163/node-ninject/issues"
   },
   "homepage": "https://github.com/chenfengjw163/node-ninject#readme",
+  "engines": {
+    "node": ">6.9.1"
+  },
   "devDependencies": {
     "eslint": "^5.9.0"
   },
-  "engines": {
-    "node": ">6.9.1"
+  "dependencies": {
+    "lodash": "^4.17.11"
   }
 }
