@@ -1,9 +1,9 @@
-const testService = require('../services/test-service');
-const depService = require('../services/dep-service');
-const dep2Service = require('../services/dep2-service');
+const TestService = require('../services/test-service');
+const DepService = require('../services/dep-service');
+const Dep2Service = require('../services/dep2-service');
 
 module.exports = [
-  {alias: 'testService', bind: testService},
-  {alias: 'depService', bind: depService},
-  {alias: 'dep2Service', bind: dep2Service},
+  {alias: 'testService', bind: TestService},
+  {alias: 'depService', bind: DepService},
+  {alias: 'dep2Service', bind: Dep2Service},
 ];
